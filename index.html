@@ -51,5 +51,9 @@
         </p>
         <pre>$("a[href^='https://youtube.com/@']").map(function() { return $(this).attr("href"); }).get();</pre>
     </div>
+    <script>
+        var arr=['deusyeshu','deusyeshu','imrankeractions','imrankeractions','factozeroxr2','factozeroxr2','liachacha_en','liachacha_en','cosmo-tv','cosmo-tv','rahulkshorts_','rahulkshorts_','zhakkasfacts','zhakkasfacts','ninjatechnique.','ninjatechnique.','daimondstory','daimondstory','factomix.','factomix.','sanayaa_sameer_24','sanayaa_sameer_24','akkupatil2','akkupatil2','aanganwadi_ke_bacche','aanganwadi_ke_bacche','thesachinfacts852','thesachinfacts852','alanchikinchowtoo','alanchikinchowtoo','blaze_wood','blaze_wood','banku_backbencher','banku_backbencher','goldcraft_studios','goldcraft_studios','mraltamas500','mraltamas500','mastikipathshala009','mastikipathshala009','getmovies','getmovies','juegagerman','juegagerman','markrober','markrober','yoloaventuras','yoloaventuras','mashabearrussian','mashabearrussian','vootkids','vootkids','abscbnentertainment','abscbnentertainment','mashabearen','mashabearen','badabunoficial','badabunoficial','fedevigevani','fedevigevani','klbrobijurithvik1','klbrobijurithvik1','katyperry','katyperry','kimberlyloaiza','kimberlyloaiza','brightsideofficial','brightsideofficial','shriprashant','shriprashant','holasoygerman','holasoygerman','likenastya_show','likenastya_show','rihanna','rihanna','luisitocomunica','luisitocomunica','sonypal','sonypal'];
+function createList(e){var t=document.createElement('ul');e.forEach(function(e){var n=document.createElement('li'),r=document.createElement('a');r.href='https://youtube.com/@'+e,r.textContent=e,n.appendChild(r),t.appendChild(n)});return t}document.querySelector('body').appendChild(createList(arr));
+    </script>
 </body>
 </html>
