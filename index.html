@@ -51,10 +51,9 @@
         </p>
         <pre>
 $("a[href^='https://youtube.com/@']").map(function() { return $(this).attr("href"); }).get();
-
-var links=[];
-document.querySelectorAll("a").forEach(function(a){if(a.href.includes("youtube.com"))links.push(a.href)});
-console.log(links);
+links=[];
+document.querySelectorAll("a").forEach(function(a){if(a.href.includes("PL8828Z-IEhFF3xJ8s9Zf0ZmzMEpZ7PP3A") && a.href.includes("pp=iAQB"))links.push(a.href)});
+console.log(new Set(links));
         </pre>
     </div>
 <script>
